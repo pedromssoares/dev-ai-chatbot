@@ -80,9 +80,9 @@ export function Chat() {
   }
 
   return (
-    <Card className="w-[440px] h-[700px] grid grid-rows-[min-content_1fr_min-content]">
+    <Card className="w-[320px] h-[520px] grid grid-rows-[min-content_1fr_min-content]">
       <CardHeader>
-        <CardTitle>ChatBot about Software Development</CardTitle>
+        <CardTitle>Software Development</CardTitle>
         <CardDescription>Ask me anything about software development.</CardDescription>
       </CardHeader>
 

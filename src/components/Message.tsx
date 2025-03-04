@@ -20,7 +20,7 @@ export function Message({ message }: { message: ChatMessage }) {
       </Avatar>
       <p className="leading-relaxed">
         <span className="block font-bold text-slate-700">
-          {message.sender === "user" ? "Humano:" : "AI:"}
+          {message.sender === "user" ? "You:" : "AI:"}
         </span>
         {message.text}
       </p>
