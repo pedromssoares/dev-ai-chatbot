@@ -1,4 +1,4 @@
-# ChatBot for Software Development
+# ChatBot for Software Development 
 
 This project is a chatbot that answers questions related to software development using the OpenAI API. The chatbot is configured to respond only to software development queries and to reply in the same language as the user’s prompt. It uses streaming to display responses gradually, creating an interactive experience.
 
