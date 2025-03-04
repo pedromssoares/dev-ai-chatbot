@@ -2,6 +2,9 @@
 
 This project is a chatbot that answers questions related to software development using the OpenAI API. The chatbot is configured to respond only to software development queries and to reply in the same language as the user’s prompt. It uses streaming to display responses gradually, creating an interactive experience.
 
+## Image
+![Captura de Tela 2025-03-03 às 22 54 55](https://github.com/user-attachments/assets/c4453d25-4110-4ad2-b78c-018c178985be)
+
 ## Features
  
 - **Specialized Responses:**  
