@@ -18,24 +18,24 @@ This project is a chatbot that answers questions related to software development
 - **Next.js:** React framework for server-side rendering and API routes.
 - **OpenAI API:** Integration with the GPT-4o-mini model (or your chosen model) to generate responses.
 - **Streaming with Fetch API:** Uses the ReadableStream API to process data in real time.
-- **Tailwind CSS (or similar):** For styling and UI components.
+- **Tailwind CSS and shadcn/UI:** For styling and UI components.
 - **Vercel:** For deployment and hosting.
 
 ## Project Structure
-
-├── app
-│   ├── api
-│   │   └── chat
-│   │       └── route.ts         # API route for processing the chat with streaming
-│   └── page.tsx                 # Main page that uses the Chat component
-├── components
-│   ├── Chat.tsx                 # Chat component for sending and receiving messages
-│   └── Message.tsx              # Component for rendering each individual message
-├── lib
-│   └── openai.ts                # Configuration and instantiation of the OpenAI client
-├── package.json
-└── README.md
-
+  ```
+  ├── app
+  │   ├── api
+  │   │   └── chat
+  │   │       └── route.ts         # API route for processing the chat with streaming
+  │   └── page.tsx                 # Main page that uses the Chat component
+  ├── components
+  │   ├── Chat.tsx                 # Chat component for sending and receiving messages
+  │   └── Message.tsx              # Component for rendering each individual message
+  ├── lib
+  │   └── openai.ts                # Configuration and instantiation of the OpenAI client
+  ├── package.json
+  └── README.md
+  ```
 ## Installation
 
 1. **Clone the repository:**
