@@ -79,13 +79,13 @@ yarn dev
 
 Then open http://localhost:3000 in your browser to test the chatbot.
 
-### Customizations
-	•	Changing the Model or Parameters:
+## Customizations
+### Changing the Model or Parameters:
 To modify the model or other parameters of the OpenAI API, adjust the call in app/api/chat/route.ts.
-	•	Improving the Prompt:
+### Improving the Prompt:
 If you want to further refine the chatbot’s behavior, modify the system message in the API call to set the desired context.
 
-### Contributing
+## Contributing
 
 Contributions are welcome! If you would like to help improve this project, please open an issue or submit a pull request.
 
